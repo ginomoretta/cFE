@@ -239,7 +239,7 @@ typedef struct CFE_ES_DumpCDSRegistryCmd
 /**********************************/
 
 /**
-**  \cfeestlm Single Application Information Packet
+**  \brief Single Application Information Packet
 **/
 typedef struct CFE_ES_OneAppTlm
 {
@@ -248,7 +248,7 @@ typedef struct CFE_ES_OneAppTlm
 } CFE_ES_OneAppTlm_t;
 
 /**
-**  \cfeestlm Memory Pool Statistics Packet
+**  \brief Memory Pool Statistics Packet
 **/
 typedef struct CFE_ES_MemStatsTlm
 {
@@ -257,7 +257,7 @@ typedef struct CFE_ES_MemStatsTlm
 } CFE_ES_MemStatsTlm_t;
 
 /**
-**  \cfeestlm Executive Services Housekeeping Packet
+**  \brief Executive Services Housekeeping Packet
 **/
 typedef struct CFE_ES_HousekeepingTlm
 {
